@@ -18,7 +18,6 @@ spec:
       labels:
         name: voting-app-pod
 	app: demo-voting-app
-	    
     spec:
       container:
         - name: voting-app-pod
