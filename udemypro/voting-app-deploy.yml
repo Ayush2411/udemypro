@@ -23,5 +23,5 @@ spec:
         - name: voting-app-pod
 	  image: ayushrusia/examplevotingapp_vote:v1
 	  ports:
-	  - containerPort: 80
+	    - containerPort: 80
 
