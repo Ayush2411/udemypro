@@ -17,11 +17,11 @@ spec:
       name: voting-app-pod
       labels:
         name: voting-app-pod
-	    app: demo-voting-app
+	app: demo-voting-app
 	    
     spec:
       container:
         - name: voting-app-pod
-	      image: ayushrusia/examplevotingapp_vot:v1
-	      ports:
-	        - containerPort: 80
+	  image: ayushrusia/examplevotingapp_vot:v1
+	  ports:
+	    - containerPort: 80
