@@ -13,15 +13,15 @@ spec:
       name: voting-app-pod
       app: demo-voting-app
   template:
-    metadata: 
+    metadata:
       name: voting-app-pod
       labels:
         name: voting-app-pod
 	app: demo-voting-app
-    spec: 
+    spec:
       container:
         - name: voting-app-pod
-	  image: kodekloud/examplevotingapp_vote:v1
-	  ports: 
+	  image: ayushrusia/examplevotingapp_vote:v1
+	  ports:
 	    - containerPort: 80
 
