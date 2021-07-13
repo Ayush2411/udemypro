@@ -20,7 +20,7 @@ spec:
         app: demo-voting-app
     spec:
       container:
-	- name: result-app-deploy
-	  image: kodekloud/examplevotingapp_result:v1
-	  ports:
-	    - containerPort: 80
+        - name: result-app-deploy
+          image: ayushrusia/examplevotingapp_result:v1
+          ports:
+            - containerPort: 80
