@@ -21,4 +21,4 @@ spec:
     spec:
       container:
         - name: worker
-          image: kodekloud/examplevotingapp_worker:v1
+          image: ayushrusia/examplevotingapp_worker:v1
