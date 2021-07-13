@@ -12,5 +12,5 @@ spec:
       nodePort: 30002
   selector:
     name: voting-app-pod
-    app: voting-app-demo
+    app: demo-voting-app
 
