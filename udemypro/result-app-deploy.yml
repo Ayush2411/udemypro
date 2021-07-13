@@ -19,7 +19,7 @@ spec:
         name: result-app-deploy
         app: demo-voting-app
     spec:
-      container:
+      containers:
         - name: result-app-deploy
           image: ayushrusia/examplevotingapp_result:v1
           ports:
